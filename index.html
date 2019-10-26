@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Giphy Comedians</title>
 </head>
+
 <body>
-    <div class="button-holder"></div>
-    
-    <form>
-        <input type="text" name="create-button" class="create-input">
-        <button class="create-button">Create Button</button>
-    </form>
-    <div class="gif-holder"></div>
+    <div class="row">
+        <div class="col-sm-8 border">
+            <div class="button-holder"></div>
+        </div>
+        <div class="col-sm-4 border">
+            <form>
+                <input type="text" name="create-button" class="create-input">
+                <button class="create-button btn btn-success">Create Button</button>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="gif-holder col-sm-12"></div>
+    </div>
 </body>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </html>
